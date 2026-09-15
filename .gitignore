@@ -1,0 +1,16 @@
+*.log
+*.pdf
+*.zip
+*.bak
+*.lnk
+*.ico
+node_modules/
+.runtime/
+__pycache__/
+backups/
+exports/
+test-output/
+assets/fonts/*-variable.ttf
+*_全部材料.json
+*_工作台.html
+*_编辑器.html

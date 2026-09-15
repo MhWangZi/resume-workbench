@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "versionLabel": "通用基础版",
+  "profile": {
+    "name": "你的姓名",
+    "role": "目标岗位",
+    "tagline": "意向城市｜到岗时间（请填写）",
+    "gender": "",
+    "birth": "",
+    "phone": "",
+    "email": "",
+    "photo": "",
+    "summary": "",
+    "skills": "专业技能：填写与目标岗位相关的技能，并注明实际掌握程度。\n工具与协作：填写使用过的工具，以及你用它们完成的具体工作。",
+    "education": [
+      {
+        "school": "学校名称",
+        "major": "专业名称｜学历",
+        "date": "入学时间—毕业时间",
+        "description": "填写与岗位相关的课程、研究方向或学习成果。"
+      }
+    ],
+    "links": [
+      {
+        "label": "作品集／个人主页",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "work-1",
+      "name": "公司／组织名称",
+      "role": "岗位名称",
+      "date": "起止时间",
+      "bullets": "本人职责：填写负责的任务、覆盖的范围与交付要求。\n工作成果：填写实际完成的交付物；有可核验的数据时补充数据。",
+      "url": "",
+      "enabled": true
+    }
+  ],
+  "campus": [],
+  "awards": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "name": "项目名称",
+      "role": "本人角色",
+      "date": "起止时间",
+      "bullets": "职责与行动：围绕项目目标，写清自己负责的部分及采取的行动。\n项目成果：说明交付内容、完成状态与验证方式，附上可公开的作品链接。",
+      "url": "",
+      "enabled": true
+    }
+  ],
+  "experiencePresets": [
+    {
+      "id": "general",
+      "name": "通用实践",
+      "text": "相关实践：填写与目标岗位相关的实践经历，说明任务、行动和结果。\n持续学习：填写已完成的课程、练习或证书，以及对应的实际应用。"
+    },
+    {
+      "id": "product",
+      "name": "产品／运营",
+      "text": "用户与需求：填写实际参与的需求分析、用户访谈或资料整理工作。\n运营与复盘：填写活动执行、内容运营或数据复盘的具体经历。"
+    },
+    {
+      "id": "engineering",
+      "name": "技术／工程",
+      "text": "开发实践：填写实际使用的语言、工具与完成的功能。\n质量与协作：填写问题定位、测试验证、代码维护或团队协作的实际经历。"
+    }
+  ],
+  "activeExperience": "general",
+  "casePresets": [
+    {
+      "id": "general",
+      "name": "通用案例",
+      "title": "案例名称｜分析主题",
+      "url": "",
+      "text": "背景与目标：说明分析对象、问题范围和使用的材料。\n分析与产出：写出关键发现、自己的判断及最终产出，并标明验证情况。"
+    },
+    {
+      "id": "product",
+      "name": "产品／运营案例",
+      "title": "产品／业务名称｜专题分析",
+      "url": "",
+      "text": "分析范围：填写目标用户、使用场景及需要解决的问题。\n结论与建议：根据实际材料写出判断、改进建议和验证计划。"
+    },
+    {
+      "id": "engineering",
+      "name": "技术／质量案例",
+      "title": "系统／功能名称｜问题分析",
+      "url": "",
+      "text": "问题与定位：说明问题表现、复现条件和定位过程。\n方案与验证：说明方案取舍、完成的修改及验证结果。"
+    }
+  ],
+  "activeCase": "general",
+  "showCase": true,
+  "style": {
+    "theme": "#137e8d",
+    "font": 12,
+    "leading": 1.55,
+    "gap": 12,
+    "layout": "plain",
+    "family": "Noto Sans SC",
+    "margin": 36,
+    "singleTemplate": "line"
+  },
+  "modules": [
+    {
+      "id": "education",
+      "title": "教育背景",
+      "enabled": true
+    },
+    {
+      "id": "work",
+      "title": "实习／工作经历",
+      "enabled": true
+    },
+    {
+      "id": "projects",
+      "title": "项目经历",
+      "enabled": true
+    },
+    {
+      "id": "cases",
+      "title": "案例分析",
+      "enabled": true
+    },
+    {
+      "id": "skills",
+      "title": "专业能力",
+      "enabled": true
+    },
+    {
+      "id": "experience",
+      "title": "专业实践",
+      "enabled": false
+    },
+    {
+      "id": "campus",
+      "title": "校园经历",
+      "enabled": false
+    },
+    {
+      "id": "awards",
+      "title": "获奖经历",
+      "enabled": false
+    },
+    {
+      "id": "links",
+      "title": "补充链接",
+      "enabled": false
+    },
+    {
+      "id": "summary",
+      "title": "个人总结",
+      "enabled": false
+    }
+  ],
+  "versions": []
+}
