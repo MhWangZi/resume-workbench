@@ -15,3 +15,10 @@ body{background:#edf2f5;--accent:#118b8b} .appbar{height:70px;padding:0 24px;pos
 #resume{font-family:'Noto Sans SC',sans-serif}.brand strong{white-space:nowrap}.brand small{letter-spacing:0}
 @media(min-width:1201px){.style-tools button{padding:7px}.appbar{gap:12px}.brand strong{font-size:15px}}
 @media(max-width:600px){.appbar{position:fixed}.brand{width:100%}.brand strong{font-size:14px}.workspace{padding-top:142px}.preview{height:calc(100vh - 142px);padding-left:8px;padding-right:8px}.actions{width:100%;justify-content:flex-end}.basic-grid{grid-template-columns:1fr}.edit-layout{grid-template-columns:115px minmax(0,1fr)}.editor .tabs button{white-space:nowrap}.drawer-grow{display:none}.record-fields{grid-template-columns:1fr}.rich-toolbar{gap:0}.rich-toolbar button{font-size:11px;padding:4px}.preview-toolbar #pageStatus{margin-left:0;display:block}}
+
+/* Keep the JSON actions accessible without covering the preview. */
+.appbar{position:sticky;height:auto;min-height:70px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.workspace{padding-top:0}
+.actions{flex-wrap:wrap}
+.actions button{white-space:nowrap}
+@media(max-width:600px){.appbar{position:sticky}.actions{justify-content:flex-start}}
